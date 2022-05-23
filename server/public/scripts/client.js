@@ -1,7 +1,7 @@
 $(document).ready(onReady);
 
 function onReady() {
-  $('#addButton').on('click', addTask);
+  $('#addButton').on('click', valid);
   getList();
 
   $('#viewTasks').on('click', '.delButton', delTask); // dynamically created button
@@ -88,3 +88,12 @@ function delTask() {
     alert('error delTask');
   })
 } // end delTask
+
+function valid() {
+
+  if (($('#taskIn').val() === '')) {
+    alert('Please enter a task.');
+  } else {
+    addTask();
+  }
+}

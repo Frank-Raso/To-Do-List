@@ -29,8 +29,8 @@ body {
 
 input {
 
-    background-color: rgba(0, 255, 255, 0.099);
-    color: black;
+    background-color:rgba(0, 0, 0, 0.36);
+    color:slategray;
     font-weight: bolder;
 
 }
@@ -94,9 +94,10 @@ table {
     background-color: slategrey;
     font-weight: bolder;
     border-radius: 15px;
-
 }
-
+.addTask{
+    padding-left: 10px;
+}
 
 
 button:hover {

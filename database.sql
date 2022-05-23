@@ -6,4 +6,4 @@ CREATE TABLE to_do(
     "complete" varchar(2)
 );
 
-INSERT INTO to_do ( task, complete) VALUES ( 'Give Cole a bath');
+INSERT INTO to_do ( task, complete) VALUES ( 'Give Cole a bath', 'N');
