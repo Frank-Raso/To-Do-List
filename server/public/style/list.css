@@ -48,8 +48,7 @@ img {
 table,
 th,
 td {
-
-    color: rgb(104, 104, 104);
+    color:slategray;
     padding: 10px;
     font-weight: bolder;
     border: 1px solid;
@@ -66,4 +65,14 @@ td {
 #viewTasks {
     text-align: center;
 
+}
+
+.completed{
+background-color: rgba(0, 255, 255, 0.099);
+color: black;
+
+}
+.incomplete{
+    background-color: rgba(220, 20, 60, 0.1);
+    color: black;
 }
