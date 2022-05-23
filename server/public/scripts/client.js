@@ -11,7 +11,7 @@ function onReady() {
 function addTask() {
   let taskToSend = {
     task: $('#taskIn').val(),
-    complete:'N',
+    complete: 'N',
   };
   console.log('adding:', taskToSend);
   $.ajax({
@@ -41,17 +41,17 @@ function getList() {
     let el = $('#viewTasks');
     el.empty();
     for (let i = 0; i < response.length; i++) {
-if(response[i].complete == 'N'){
+      if (response[i].complete == 'N') {
 
-      el.append(`<tr class="incomplete" ><td>${response[i].task}</td>
+        el.append(`<tr class="incomplete" ><td>${response[i].task}</td>
         <td><button class="delButton" data-id="${response[i].id}">Delete</button></td><td><button class="compButton" data-id="${response[i].id}">Complete Task</button></td> </tr>`);
-        }else{
-          el.append(`<tr class="completed" ><td>${response[i].task}</td>
+      } else {
+        el.append(`<tr class="completed" ><td>${response[i].task}</td>
           <td><button class="delButton" data-id="${response[i].id}">Delete</button></td>
           <td class="check" >☑️</td>
           </tr>`);
-        }
       }
+    }
   }).catch(function (err) {
     console.log(err);
     alert('err GET tasks');
