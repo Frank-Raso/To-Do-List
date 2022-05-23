@@ -1,6 +1,9 @@
 .content {
     max-width: 500px;
     margin: auto;
+    padding-top: 40px;
+
+
 }
 
 
@@ -15,8 +18,7 @@ header {
 body {
 
 
-    background-image: url(images/5_.jpeg);
-    height: 100vh;
+    background-image: url(images/_1.jpeg);
     background-color: black;
     color: black;
     font-family: 'Courier New', Courier, monospace;
