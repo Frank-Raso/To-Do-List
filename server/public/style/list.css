@@ -1,0 +1,69 @@
+header {
+    background-color: slategrey;
+    font-weight: bolder;
+    border-radius: 15px;
+
+}
+
+body {
+
+    padding: 10px;
+    background-image: url(images/5_.jpeg);
+    height: 100vh;
+    background-color: black;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+
+}
+
+input {
+
+    background-color: slategrey;
+    color: black;
+    font-weight: bolder;
+
+}
+
+
+
+button {
+    background-color: slategrey;
+    font-weight: bolder;
+
+}
+
+img {
+    float: left;
+    height: 220px;
+    width: 220;
+}
+
+.allTasks {
+    padding-left: 30px;
+    width: 100px;
+}
+
+table,
+th,
+td {
+
+    color: rgb(104, 104, 104);
+    padding: 10px;
+    font-weight: bolder;
+    border: 1px solid;
+    backdrop-filter: blur(80px);
+
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+#viewTasks {
+    text-align: center;
+
+}
