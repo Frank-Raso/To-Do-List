@@ -42,12 +42,13 @@ function getList() {
     el.empty();
     for (let i = 0; i < response.length; i++) {
 if(response[i].complete == 'N'){
+
       el.append(`<tr class="incomplete" ><td>${response[i].task}</td>
         <td><button class="delButton" data-id="${response[i].id}">Delete</button></td><td><button class="compButton" data-id="${response[i].id}">Complete Task</button></td> </tr>`);
         }else{
           el.append(`<tr class="completed" ><td>${response[i].task}</td>
           <td><button class="delButton" data-id="${response[i].id}">Delete</button></td>
-          <td> ☑️ </td>
+          <td class="check" >☑️</td>
           </tr>`);
         }
       }
