@@ -2,8 +2,6 @@
     max-width: 500px;
     margin: auto;
     padding-top: 40px;
-
-
 }
 
 
@@ -11,37 +9,32 @@ header {
     padding-left: 10px;
     background-color: slategrey;
     font-weight: bolder;
-    border-radius: 15px;
-
+    border-radius: 10px;
 }
 
 body {
-
-
     background-image: url(images/_1.jpeg);
     background-color: black;
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
 
-
 }
 
 input {
 
-    background-color:rgba(0, 0, 0, 0.36);
-    color:slategray;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.36);
+    color: slategray;
     font-weight: bolder;
-
+    border-radius: 5px;
 }
-
-
 
 button {
     background-color: slategrey;
     font-weight: bolder;
-
-
+    border-radius: 5px;
+    font-family: monospace;
 }
 
 img {
@@ -50,7 +43,6 @@ img {
     height: 220px;
     width: 220;
 }
-
 
 table,
 th,
@@ -65,27 +57,21 @@ th,
 td {
     padding: 15px;
     text-align: left;
-
-
 }
 
 table {
     border-radius: 15px;
     border: 1px solid;
-
-
 }
 
 .completed {
     background-color: rgba(0, 255, 255, 0.099);
     color: black;
-
 }
 
 .incomplete {
     background-color: rgba(220, 20, 60, 0.1);
     color: black;
-
 }
 
 .allTasks {
@@ -93,9 +79,10 @@ table {
     width: 100px;
     background-color: slategrey;
     font-weight: bolder;
-    border-radius: 15px;
+    border-radius: 10px;
 }
-.addTask{
+
+.addTask {
     padding-left: 10px;
 }
 
@@ -106,12 +93,10 @@ button:hover {
 }
 
 .delButton:hover {
-
     background-color: red;
 }
 
 .compButton:hover {
-
     background-color: green;
 
 }

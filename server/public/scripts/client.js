@@ -1,10 +1,10 @@
 $(document).ready(onReady);
 
 function onReady() {
-  $('#addButton').on('click', valid);
-  getList();
+  $('#addButton').on('click', valid);//when adding a task valid() will check to make sure that there is an input and if so it will run the addTask() function
+  getList();//updates the dom with the current list of task and task status
 
-  $('#viewTasks').on('click', '.delButton', delTask); // dynamically created button
+  $('#viewTasks').on('click', '.delButton', delTask); // dynamically created button , 
   $('#viewTasks').on('click', '.compButton', completeTask);
 };
 
