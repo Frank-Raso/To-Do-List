@@ -1,2 +1,3 @@
-Fun TODO list for all those tasks.
+Fun ToDo list for all those tasks.
+
 ![sample](FinishedEx.png)
