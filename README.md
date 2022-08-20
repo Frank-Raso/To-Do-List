@@ -1,3 +1,3 @@
-Fun ToDo list for all those tasks.
+-Fun ToDo list !
 
 ![sample](FinishedEx.png)
